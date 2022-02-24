@@ -1,9 +1,10 @@
 @import '../../assests/variable/Variable';
 
 .investers  {
-        height: 100vh;
+    height: 577px;
     .invester_container {
-
+        margin: 0 auto;
+        max-width: 1280px;
         h2 {
             color: $fontClr;
             font-weight: 500;

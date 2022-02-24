@@ -1,12 +1,14 @@
 @import '../../assests/variable/Variable';
 
-.footer {
-     height: 25vh;
+.footer {   
+     height: 577px;
     .footer_container {
         display: flex;
         align-items: center;
         padding: 27px 57px;
         justify-content: space-between;
+        margin: 0 auto;
+    max-width: 1280px;
         .logo {
 
             img {

@@ -1,12 +1,14 @@
 @import "../../assests/variable/Variable";
 
 .about {
-height: 50vh;
+    height: 577px;
     .about_container {
         display: flex;
         align-items: center;
         padding: 10px 70px;
     justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1280px;
     .contact-us {
         line-height: 55px;
     

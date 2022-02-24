@@ -1,13 +1,14 @@
 @import '../../assests/variable/Variable';
 
 .fractional {
-        height: 77vh;
+    height: 577px;
     .fractional_container {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         padding: 13px;
-    
+        margin: 0 auto;
+        max-width: 1280px;
         .images {
             position: relative;
             .img1 {
