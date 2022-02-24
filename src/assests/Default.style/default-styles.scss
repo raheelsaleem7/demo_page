@@ -1,0 +1,134 @@
+/*--### GLOBALS ###--*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+button,
+input,
+form,
+a,
+div,
+section {
+  font-family: "Poppins", sans-serif;
+}
+
+/*--### COLUMNS ###--*/
+.col-1 {
+  width: calc(100% / 12);
+}
+.col-2 {
+  width: calc(100% / 12 * 2);
+}
+.col-3 {
+  width: calc(100% / 12 * 3);
+}
+.col-4 {
+  width: calc(100% / 12 * 4);
+}
+.col-5 {
+  width: calc(100% / 12 * 5);
+}
+.col-6 {
+  width: calc(100% / 12 * 6);
+}
+.col-7 {
+  width: calc(100% / 12 * 7);
+}
+.col-8 {
+  width: calc(100% / 12 * 8);
+}
+.col-9 {
+  width: calc(100% / 12 * 9);
+}
+.col-10 {
+  width: calc(100% / 12 * 10);
+}
+.col-11 {
+  width: calc(100% / 12 * 11);
+}
+.col-12 {
+  width: calc(100% / 12 * 12);
+}
+
+[class*="col-"] {
+  padding: 0 10px;
+}
+
+/*--### SECTION ###--*/
+section {
+  padding: 100px 0px;
+}
+
+/*--### IMAGE RESPONSIVE ###--*/
+.img-responsive {
+  width: 100%;
+}
+
+/*--### CONTAINER ###--*/
+.container {
+  width: 100%;
+}
+
+/*--### ROW ###--*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*--### SECTION HEADING ###--*/
+.section-heading {
+  line-height: 1;
+  margin-bottom: 30px;
+  color: $primary;
+
+  .sub-heading {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+}
+
+/*--### SECTION TEXT ###--*/
+.section-text {
+  color: $dark;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+/*--### BUTTON STYLES ###--*/
+.button {
+  text-transform: uppercase;
+  color: $white;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 12px 24px;
+  border-radius: 3px;
+  transition: 0.3s all;
+
+  &:hover {
+    background-color: $black !important;
+  }
+
+  &.btnGold {
+    background-color: $secondary;
+  }
+  &.btnBlue {
+    background-color: $primary;
+  }
+}

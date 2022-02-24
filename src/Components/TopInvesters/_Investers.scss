@@ -1,0 +1,65 @@
+@import '../../assests/variable/Variable';
+
+.investers  {
+        height: 100vh;
+    .invester_container {
+
+        h2 {
+            color: $fontClr;
+            font-weight: 500;
+            padding: 10px 52px;
+        }
+
+        .for_investers {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            .invester_details {
+                border: 1px solid #EBEBEB;
+                padding: 31px;
+                line-height: 57px;
+                margin: 60px;
+                .stars {
+
+                    img{
+
+                    }
+                }
+
+                .description {
+                    line-height: 20px;
+                    p{
+                       color: $textClr;
+                       font-size: 11px;
+                       width: 100%;
+                    }
+                }
+
+                .owner {
+                    display: flex;
+                    align-items: center;
+                    .profile {
+                        margin-top: 20px;
+
+                        img{
+                            border-radius: 50%;
+                        }
+                    }
+                    .owner_name {
+                        line-height: 19px;
+                        margin-left: 18px;
+                        width: 141px;
+                        h5 {
+                            color: $fontClr;
+                        }
+
+                        span {
+                            color: $textClr;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

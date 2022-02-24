@@ -1,0 +1,96 @@
+@import '../../assests/variable/Variable';
+
+.fractional {
+        height: 77vh;
+    .fractional_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 13px;
+    
+        .images {
+            position: relative;
+            .img1 {
+
+                img {
+                    width: 324px;
+                }
+            }
+            .img2 {
+                position: absolute;
+                top: 165px;
+            
+                img {
+                    width: 324px;
+                }
+            }
+        }
+
+        .right-content {
+
+           .guide{
+            line-height: 30px;
+
+            h4 {
+             color: $fontClr;
+             font-size: 20px;
+             font-weight: 500;
+            }
+
+            p {
+           color: $textClr;
+           font-size: 12px;
+            }
+        }
+
+            .user_info {
+                background: white;
+                box-shadow:1px 13px 15px 1px #d8dbdf;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+                border-radius: 3px;
+                height: 100px;
+                width: 402px;
+                margin-top: 20px;
+                .for_svg {
+                    background: #E8EBF1;
+                    padding: 4px 11px;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: end;
+                    svg {
+                       width: 20px;
+                    }
+                }
+
+                .text {
+                    line-height: 19px;
+                    h6 {
+                       color: $fontClr;
+                       font-size: 13px;
+                    }
+                    p {
+                        color: $textClr;
+                        font-size: 10px;
+                        width: 268px;
+                    }
+                }
+                .for_svg2 {
+                    background: $svgBg;
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                
+                    svg {
+                        width: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
