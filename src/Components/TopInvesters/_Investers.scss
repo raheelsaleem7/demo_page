@@ -1,29 +1,40 @@
 @import '../../assests/variable/Variable';
 
 .investers  {
-    height: 577px;
+    height: 100vh;
     .invester_container {
         margin: 0 auto;
         max-width: 1280px;
         h2 {
             color: $fontClr;
-            font-weight: 500;
+            font-family: $headingFont;
             padding: 10px 52px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 55px;
         }
 
         .for_investers {
             display: flex;
             justify-content: center;
             padding: 10px;
+            margin-top: 45px;
             .invester_details {
+                width: 380px;
+                height: 385px;
+                background: #FFFFFF;
                 border: 1px solid #EBEBEB;
-                padding: 31px;
-                line-height: 57px;
-                margin: 60px;
+                box-sizing: border-box;
+                border-radius: 10px 10px 0px 10px;
+                padding: 33px;
+                line-height: 62px;
+                margin-right: 32px;
                 .stars {
 
                     img{
-
+                        width: 17.45px;
+                        height: 17.17px;
                     }
                 }
 
@@ -31,8 +42,12 @@
                     line-height: 20px;
                     p{
                        color: $textClr;
-                       font-size: 11px;
+                       font-size: 16px;
                        width: 100%;
+                       font-family: $headingFont;
+                       font-size: 16px;
+                       font-weight: 600;
+                       line-height: 28px;
                     }
                 }
 
@@ -51,12 +66,24 @@
                         margin-left: 18px;
                         width: 141px;
                         h5 {
-                            color: $fontClr;
+                            color: $name;
+                            font-family: $headingFont;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 16px;
+                            line-height: 22px;
+                            
+
                         }
 
                         span {
-                            color: $textClr;
-                            font-size: 12px;
+                           
+                            font-family: $headingFont;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 19px;
+                            color: $address;
                         }
                     }
                 }

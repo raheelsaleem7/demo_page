@@ -1,11 +1,12 @@
 @import "../../assests/variable/Variable";
 
 .about {
-    height: 577px;
+    height: 100vh;
+    background: $aboutBg;
     .about_container {
         display: flex;
         align-items: center;
-        padding: 10px 70px;
+        padding: 154px 70px;
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1280px;
@@ -14,14 +15,17 @@
     
         h2 {
            color: $fontClr;
-           font-size: 31px;
-           font-weight: 400;
-           line-height: 36px;
+           font-size: 45px;
+           font-family: $headingFont;
+           line-height: 63.89px;
         }
 
         p {
            color: $textClr;
-           font-size: 14px;
+           font-size: 23px;
+           font-family: $headingFont;
+           font-weight: 600;
+        
         }
 
         button {
@@ -31,13 +35,21 @@
               outline: none;
               padding: 10px 24px;
               cursor: pointer;
+              font-family:$buttonFont;
               border-radius: 10px 0px 10px 10px;
+              transition: .4s;
+              &:hover {
+                  background-color: $svgBg;
+                  color: $btnClr;
+              }
         }
         div {
             margin-top: -17px;
         span {
             color: $textClr;
             text-decoration: underline;
+            font-family: $buttonFont;
+            font-size: 15px;
         }
     }
 }

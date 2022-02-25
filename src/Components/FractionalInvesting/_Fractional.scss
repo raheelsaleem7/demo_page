@@ -1,7 +1,7 @@
 @import '../../assests/variable/Variable';
 
 .fractional {
-    height: 577px;
+    height: 100vh;
     .fractional_container {
         display: flex;
         align-items: center;
@@ -11,21 +11,29 @@
         max-width: 1280px;
         .images {
             position: relative;
+            align-self: start;
+    padding-top: 12px;
             .img1 {
 
                 img {
-                    width: 324px;
-                }
-            }
-            .img2 {
-                position: absolute;
-                top: 165px;
-            
-                img {
-                    width: 324px;
-                }
+                    width: 492px;
+                    height: 364px;
+                    border-radius: 10px;
+                
             }
         }
+            .img2 {
+                position: absolute;
+                top: 265px;
+                right: 32px;
+            
+                img {
+                    width: 410px;
+                    border-radius: 10px
+
+                }
+            }
+            }
 
         .right-content {
 
@@ -34,27 +42,34 @@
 
             h4 {
              color: $fontClr;
-             font-size: 20px;
-             font-weight: 500;
+             font-family: $headingFont;
+             font-style: normal;
+             font-weight: 600;
+             font-size: 40px;
+             line-height: 55px;
             }
 
             p {
            color: $textClr;
-           font-size: 12px;
+           font-family: $headingFont;
+           font-style: normal;
+           font-weight: 700;
+           font-size: 16px;
+           line-height: 51.2px;
+           letter-spacing: 0.02em;
             }
         }
 
             .user_info {
                 background: white;
-                box-shadow:1px 13px 15px 1px #d8dbdf;
+                box-shadow: 0px 20px 30px rgba(14, 36, 58, 0.1);
+                border-radius: 10px;
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
-                padding: 10px;
-                border-radius: 3px;
-                height: 100px;
-                width: 402px;
-                margin-top: 20px;
+                padding: 10px 23px;
+                width: 527.07px;
+                height: 155px;
+                margin-top: 35px;
                 .for_svg {
                     background: #E8EBF1;
                     padding: 4px 11px;
@@ -68,14 +83,26 @@
 
                 .text {
                     line-height: 19px;
+                    flex: auto;
+                    margin-left: 23px;
                     h6 {
-                       color: $fontClr;
-                       font-size: 13px;
+                       color: $owner;
+                       font-style: normal;
+                       font-weight: 600;
+                       font-size: 20px;
+                       line-height: 27px;
+                       font-family: $headingFont;
+                       height: 27px;
                     }
                     p {
                         color: $textClr;
-                        font-size: 10px;
-                        width: 268px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 19px;
+                        width: 183px;
+                        height: 19px;
+                        font-family: $headingFont;
                     }
                 }
                 .for_svg2 {

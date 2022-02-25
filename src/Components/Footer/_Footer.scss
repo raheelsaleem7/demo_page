@@ -1,7 +1,7 @@
 @import '../../assests/variable/Variable';
 
 .footer {   
-     height: 577px;
+    height: 155px;
     .footer_container {
         display: flex;
         align-items: center;
@@ -33,6 +33,9 @@
 
                 span {
                   color: $contact;
+                  font-family: $headingFont;
+                  font-size: 15px;
+                    font-weight: 700;
                 }
             }
             .location-svg {
@@ -45,6 +48,9 @@
 
                 span {
                     color: $contact;
+                    font-family: $headingFont;
+                    font-size: 15px;
+                    font-weight: 700;
                 }
             }
         }
@@ -71,7 +77,10 @@
     }
                      p {
                          text-align: center;
-                         font-weight: 500;
-                         font-size: 14px;
+                         font-style: normal;
+                         font-weight: bold;
+                         font-size: 12px;
+                         line-height: 16px;
+                         font-family: $headingFont;
                      }
 }
